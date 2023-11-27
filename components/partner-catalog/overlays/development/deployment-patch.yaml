@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: partner-catalog
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/ebannon-tenant/partner-catalog/partner-catalog@sha256:6f86ec72df6cec8d3bfef7ef61aa561feaedfca699da5547b85c103961c80965
+        name: my-java-springboot
+        resources: {}
+status: {}
