@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ebannon-tenant/partner-catalog/partner-catalog@sha256:35355e6865c58be4778d109f18daf92871f7f1cc0ce65401f9013698170050cc
+      - image: quay.io/redhat-user-workloads/ebannon-tenant/partner-catalog/partner-catalog@sha256:ca4c8c71b4de298559bfd59e70046fd34bdd8f39d68eea81932d9d9dc0c30418
         name: my-java-springboot
         resources: {}
 status: {}
